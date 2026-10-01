@@ -1,0 +1,509 @@
+{
+  "scope": "Wall app/server only; fresh history; no personal runtime data",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 211,
+      "sha256": "8460069689cef92b6dc82e8485fc3d63ac691e2cc855e65f258581f9bc01bc21"
+    },
+    {
+      "path": "GIF_SOURCES.md",
+      "bytes": 284,
+      "sha256": "1ccc1a936eb8f37f9176f9c5581b1933c675992710c01ee4798cfe9093e49a8a"
+    },
+    {
+      "path": "IPAD_SETUP.md",
+      "bytes": 4115,
+      "sha256": "2ebe3bf077bbb6b23883696366ddc50b1f32ac298f0e8cfd89f8cc82c981211e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1247,
+      "sha256": "77507d776eea0aaa9d7235e4e613cad58c74de6dab51405de6656b0c87d403b0"
+    },
+    {
+      "path": "SELF_HOSTING.md",
+      "bytes": 5823,
+      "sha256": "8be58a1141b4efb577ed0312ef824762059506b514d8d2ecffdcac410e26b0cb"
+    },
+    {
+      "path": "THIRD_PARTY_INSPIRATION.md",
+      "bytes": 579,
+      "sha256": "b053d605f3c7461fd10946c0418c467a57b21d38747c15f817633ed46c96cd34"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 1931,
+      "sha256": "b1e098930957b307ddcbc21384bcdfd67fb2480fc43136ea13e18b8e08574295"
+    },
+    {
+      "path": "WipeWall/App/DashboardModel.swift",
+      "bytes": 1185,
+      "sha256": "c54b8c4f178597cf130d9c230b88050fe9cd0fb0db813f524095dddf0e2d056a"
+    },
+    {
+      "path": "WipeWall/App/WallConfiguration.swift",
+      "bytes": 684,
+      "sha256": "e6a88e5fe7e87e0c9de9a3563ae12c116419b29f08b99063c061d980191fbf3c"
+    },
+    {
+      "path": "WipeWall/App/WipeWallApp.swift",
+      "bytes": 1550,
+      "sha256": "1e0aaa4dd11f7799d64818093d70f6fd46c4fd464653887c2f3e9dcdf5807f0d"
+    },
+    {
+      "path": "WipeWall/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 690,
+      "sha256": "713d3bda8d89ef2ba032bfd575af680fbf040a962be503dfd1d97be443f6f75c"
+    },
+    {
+      "path": "WipeWall/Assets.xcassets/Contents.json",
+      "bytes": 64,
+      "sha256": "6248561bf2784c2488a1d948159a69fd8a6c9d06206c408a1c35b202d3c26c0a"
+    },
+    {
+      "path": "WipeWall/Camera/FitPicController.swift",
+      "bytes": 24020,
+      "sha256": "630863ca6c7e101ee8ac833f20515eb8b8fdc069a30f1992a0c5df549945f665"
+    },
+    {
+      "path": "WipeWall/Camera/FitPicUploadClient.swift",
+      "bytes": 7345,
+      "sha256": "c899050af8204c7b8fbfb282bba85710ecee7f911f06241c5b6c19a6bedc4233"
+    },
+    {
+      "path": "WipeWall/Camera/PhotoBoothGuestClient.swift",
+      "bytes": 1803,
+      "sha256": "9f8874e9b37288ae3917bdf08ad7e150bb3ff3a285fd33272d3bca53c1d8dcd5"
+    },
+    {
+      "path": "WipeWall/Info.plist",
+      "bytes": 2135,
+      "sha256": "855604004a677afb8333992f7f77e1257e29d13183f273d00dd072ce9bc685a5"
+    },
+    {
+      "path": "WipeWall/Resources/photo-booth-1.gif",
+      "bytes": 11911,
+      "sha256": "2f470412d96aa3a07e15caaa3c3aa397ef3f933752b83ce06d4e2702fab1dae6"
+    },
+    {
+      "path": "WipeWall/Resources/photo-booth-2.gif",
+      "bytes": 27059,
+      "sha256": "7dc0b1a82a03f372c314405a0780c487d3f93f59b491aaca3628f8c8725d88a6"
+    },
+    {
+      "path": "WipeWall/Resources/photo-booth-3.gif",
+      "bytes": 65681,
+      "sha256": "206426e1c91e57210013912d279ddee40cb0576292b5062ca37e7a528a3dec48"
+    },
+    {
+      "path": "WipeWall/Resources/photo-booth-4.gif",
+      "bytes": 5911,
+      "sha256": "3980cd3d8658b7e2f64de2153a9caf1e5a34094f795a501b20ee4a9b735edb85"
+    },
+    {
+      "path": "WipeWall/Resources/wall-gif-1.gif",
+      "bytes": 10116,
+      "sha256": "258869f5cf76714735ebb10bee4590ec99de93bc33f1faab82216926a0152380"
+    },
+    {
+      "path": "WipeWall/Resources/wall-gif-2.gif",
+      "bytes": 5595,
+      "sha256": "4b9488ef72ac70b1d1d47dc2dfb73bdd3e51b599b4a5e5d61aa29d7aa1464ee6"
+    },
+    {
+      "path": "WipeWall/Services/GoonLogClient.swift",
+      "bytes": 3418,
+      "sha256": "9b13354ce14cf700fd4eab7683643a24e5d169de7e889acebe056c2849124f3b"
+    },
+    {
+      "path": "WipeWall/Services/SiftSonosService.swift",
+      "bytes": 36241,
+      "sha256": "26dbd8eb86080678c2f2de8011e941421c1c957076ecfeee10abcbf1bbd18402"
+    },
+    {
+      "path": "WipeWall/Services/SonosMusicService.swift",
+      "bytes": 36808,
+      "sha256": "72b49384c009c56603a5403c649221dd20cd814dcf4119e7fe320e1770ecf9bd"
+    },
+    {
+      "path": "WipeWall/Services/SonosNativePlaylistService.swift",
+      "bytes": 20876,
+      "sha256": "85566debffc6c020cafcbb00e82c9763edf3348e4a09d1acbddfeb88221a0484"
+    },
+    {
+      "path": "WipeWall/Services/SonosNowPlayingService.swift",
+      "bytes": 25982,
+      "sha256": "cc5433babc12955d2d06d2961f11e02cab6724f43e4b2d2bc0140474e1b1ae03"
+    },
+    {
+      "path": "WipeWall/Services/SoundCloudSonosService.swift",
+      "bytes": 19925,
+      "sha256": "5dc7447108ee276d1ae4f2020d74e53dc8f07286145b2a62d326fdf74a65629c"
+    },
+    {
+      "path": "WipeWall/Services/SpotifyAccountService.swift",
+      "bytes": 24457,
+      "sha256": "2417d8ba1ee53a1ab6d3e92051e6405c07a360e4f28145e5e37b2114c44da009"
+    },
+    {
+      "path": "WipeWall/Services/TransitService.swift",
+      "bytes": 4225,
+      "sha256": "69cd5d87efb85d7782c3f4fc385f039d3b5de7a3091096583a01343c1aa15c27"
+    },
+    {
+      "path": "WipeWall/Services/WallCloudSyncController.swift",
+      "bytes": 19895,
+      "sha256": "1f1536813b1b931017b6111d34830f4be712bb24220bbb86da8ff80c2cf8f233"
+    },
+    {
+      "path": "WipeWall/Services/WallMusicSource.swift",
+      "bytes": 332,
+      "sha256": "b90e0dcebeeefbe46227a0fe367a8a2978546bf539b620c9d25458ba712ad407"
+    },
+    {
+      "path": "WipeWall/Services/WallSonosRemoteRelay.swift",
+      "bytes": 6513,
+      "sha256": "d30e5f756b77334a40b47dfb04b079bec61b1d488b593916d1288f11605a4de4"
+    },
+    {
+      "path": "WipeWall/Services/WeatherService.swift",
+      "bytes": 5962,
+      "sha256": "e5cc4a4966f31db5ff5bcbe65860453625463ca46048a9291eb419afa16c3ecb"
+    },
+    {
+      "path": "WipeWall/Views/AnimatedGIFView.swift",
+      "bytes": 38941,
+      "sha256": "7b0df632b2fd9ba31de370243eb2343832f96fa7bdbc5de278606d2ca0fc8542"
+    },
+    {
+      "path": "WipeWall/Views/ClockClockView.swift",
+      "bytes": 7160,
+      "sha256": "2968e36479c4a404b0f16000be443765ab829cf18243576c2c9f8687b3c877bb"
+    },
+    {
+      "path": "WipeWall/Views/EphemeralInkCanvas.swift",
+      "bytes": 12641,
+      "sha256": "590e4f1d2e5fcf4fec6efd1722ba528f6e1dc3f76747c3a1ccdced531094fefa"
+    },
+    {
+      "path": "WipeWall/Views/GIFBrowserView.swift",
+      "bytes": 10867,
+      "sha256": "c27bcd6c1a83d1fef2c8512d5b2ad750d83e93ba764a3a7425b5b048300efe1b"
+    },
+    {
+      "path": "WipeWall/Views/GoonCounterView.swift",
+      "bytes": 24904,
+      "sha256": "9878d9867422b0d7fc8f164dd88f4f5d45b13df698dd825dfc3c7046990f5aba"
+    },
+    {
+      "path": "WipeWall/Views/InstantActionButton.swift",
+      "bytes": 884,
+      "sha256": "741c7d5d0a66d3b89865fe701b465a275e159045f9ab8ba08308c59b4a303ad7"
+    },
+    {
+      "path": "WipeWall/Views/MovableWallElement.swift",
+      "bytes": 24397,
+      "sha256": "061a138f7993d472ff36609e70a531ffd2b0a7fe108baf144f85cf58e801e460"
+    },
+    {
+      "path": "WipeWall/Views/NoteCanvasView.swift",
+      "bytes": 4045,
+      "sha256": "765b7cb45177a739543d07934c5c18f87942ea22b7f6bf9073a07e88b093d375"
+    },
+    {
+      "path": "WipeWall/Views/PhotoBoothModeView.swift",
+      "bytes": 14436,
+      "sha256": "4660e21e5e76010d6c499272cda71e2e90d56fe159321f1d9c5b1e0171ee1f64"
+    },
+    {
+      "path": "WipeWall/Views/PhotoBoothVideoView.swift",
+      "bytes": 15405,
+      "sha256": "f3a2a248668832503f57f5c0e9ea784343b87cd58409075a983fc99e5f340619"
+    },
+    {
+      "path": "WipeWall/Views/PhotoGalleryView.swift",
+      "bytes": 20317,
+      "sha256": "bc2921a5dc84f88bb423cd0ea860b1d478a34a5ac7e6fd1a780baed942dbb527"
+    },
+    {
+      "path": "WipeWall/Views/SonosNowPlayingWidget.swift",
+      "bytes": 9875,
+      "sha256": "6bb95319eaabab103a165198cf9f0269fa693c0717f4d0580fe6212bdc8605cf"
+    },
+    {
+      "path": "WipeWall/Views/TransitTickerView.swift",
+      "bytes": 4908,
+      "sha256": "69984ae85ede336925c71be66d0537ae988f29884da2956f19f57f1fdb1d3892"
+    },
+    {
+      "path": "WipeWall/Views/VoicePresenceView.swift",
+      "bytes": 2001,
+      "sha256": "a8958e6f9df3698d4b98f4b1997d1b4f9efb3e49e20324395b123429c284d42e"
+    },
+    {
+      "path": "WipeWall/Views/WallCanvasView.swift",
+      "bytes": 38359,
+      "sha256": "129ad0a716f0449add35d50bdb2ce9fc4c5ec64a2257a6eac540015d965c2127"
+    },
+    {
+      "path": "WipeWall/Views/WallClockView.swift",
+      "bytes": 2272,
+      "sha256": "f8bc791f6573d905ea46f6e9e3a95cb0291058fefb79e955ee2cdfc42ea5267f"
+    },
+    {
+      "path": "WipeWall/Views/WallEditLongPressBridge.swift",
+      "bytes": 2953,
+      "sha256": "03853236f5ac7e4b1cd0e0aee93f6992b5553228fe78e8550f31f34ca12e51ac"
+    },
+    {
+      "path": "WipeWall/Views/WallModalInactivity.swift",
+      "bytes": 4730,
+      "sha256": "cfa6bfa8c50d8045ffd232acde3d6ce0dcbe87551bf0ff4d6e6740339f3731ca"
+    },
+    {
+      "path": "WipeWall/Views/WallMusicPanelView.swift",
+      "bytes": 52906,
+      "sha256": "13c4574e1032ab0a35799d8f0dea546ffae85d59ecb261041b393be8dbd99fc0"
+    },
+    {
+      "path": "WipeWall/Views/WallOutsideTapBridge.swift",
+      "bytes": 2715,
+      "sha256": "bfe402128d59fbc9f4446e957753bda5c601f992e9bb95ea69a3fd5581e7e475"
+    },
+    {
+      "path": "WipeWall/Views/WallSettingsView.swift",
+      "bytes": 6317,
+      "sha256": "3c1c53a874d7bc07d83648b0a3c3d7adfd65849797b230848afbbc0669e0a353"
+    },
+    {
+      "path": "WipeWall/Views/WallStrangeWidgets.swift",
+      "bytes": 25057,
+      "sha256": "597a64283dac79ef7cce99a6a998c74318a4a25d4db9c9214ac6fd2c1bf85d19"
+    },
+    {
+      "path": "WipeWall/Views/WallTransformGestureSurface.swift",
+      "bytes": 6144,
+      "sha256": "0c1aa96d4b3ed1c937dfe6a2e5541f8241d2fff25dc946643bb1a68688911107"
+    },
+    {
+      "path": "WipeWall/Views/WallWidgetStore.swift",
+      "bytes": 17596,
+      "sha256": "5c279d8ce36a7082c5b43b2bb63ba1f83371720eefb0fbef19da95e5e3fe34cc"
+    },
+    {
+      "path": "WipeWall/Views/WallWidgets.swift",
+      "bytes": 51081,
+      "sha256": "6bd4d063cce38d5acac9e9a6f0860e3e155763484f53cbe1ac8e218b451060a4"
+    },
+    {
+      "path": "WipeWall/Views/WeatherSignalView.swift",
+      "bytes": 6022,
+      "sha256": "620e6ae10af7e0b12e4498bf98de168b2868f97d34efd3db62a83a049ea366f5"
+    },
+    {
+      "path": "WipeWall/Voice/DonBridgeClient.swift",
+      "bytes": 965,
+      "sha256": "ae1cc046566da99104afb6a4207928ef74ecfa212f7be7a3375c85bcd7bfd588"
+    },
+    {
+      "path": "WipeWall/Voice/DonVoiceController.swift",
+      "bytes": 10167,
+      "sha256": "67efc8958a274f4c14b97e0fb6b54694fe29eb080be5e2b56dc4254c39fd9f90"
+    },
+    {
+      "path": "WipeWall/Voice/HomeToolRouter.swift",
+      "bytes": 5895,
+      "sha256": "c69b1d9bdc3ffb042a093f1e4f39f541b0894d07e197d50e8ea356430ab795d5"
+    },
+    {
+      "path": "WipeWall/Voice/RealtimeAudioIO.swift",
+      "bytes": 6625,
+      "sha256": "c489610c4c079decc2ce674cd7c67e3c9b63208c7d2dc7b38b5201515f4d5280"
+    },
+    {
+      "path": "WipeWall/Voice/RealtimeClient.swift",
+      "bytes": 18350,
+      "sha256": "a9739715dd07ea586121c675c851a9d2b680baa3506b6b357bfef34a3e1e4284"
+    },
+    {
+      "path": "WipeWall/Voice/RealtimeSecrets.swift",
+      "bytes": 312,
+      "sha256": "e22d73d88eefb125b0987cbbed8688dd91d58e794e24cfc01aeffd7d7fec9d05"
+    },
+    {
+      "path": "WipeWall/Voice/WakeWordListener.swift",
+      "bytes": 14044,
+      "sha256": "5953c0b660428ce062a7285ffd090258d67c441b9dab498f63f0016bae1cadad"
+    },
+    {
+      "path": "WipeWall.xcodeproj/project.pbxproj",
+      "bytes": 46391,
+      "sha256": "b3133a68863bc31235ec0471c5f85d250c8ea5d05783fdab70154cf4d34b2655"
+    },
+    {
+      "path": "WipeWall.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "bytes": 135,
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "WipeWall.xcodeproj/xcshareddata/xcschemes/WipeWall.xcscheme",
+      "bytes": 4414,
+      "sha256": "5818fb988ab1c6b6708de0074b808340399e4f6be474ef869c6bcb7162c60178"
+    },
+    {
+      "path": "WipeWallTests/SonosNowPlayingTests.swift",
+      "bytes": 19224,
+      "sha256": "39ea58361d5de5f7e0f2d195d3e36fa7e9570f170ce53ea882ddabed052f1147"
+    },
+    {
+      "path": "WipeWallTests/WallConfigurationTests.swift",
+      "bytes": 1174,
+      "sha256": "2c584d279a8649335e4ce710ee7c8270032624594fd62f27bd61bbc01e854ff3"
+    },
+    {
+      "path": "WipeWallTests/WipeWallTests.swift",
+      "bytes": 41681,
+      "sha256": "9975ef3f73bb7984cbca0a1ab2ff0c84014e5ca186ef9a2a6b27e5739f68f5e3"
+    },
+    {
+      "path": "WipeWallUITests/WallTouchArchitectureUITests.swift",
+      "bytes": 15302,
+      "sha256": "df9b6ef22e55f1af687b95063b169bbbfc77338d2a7c95ba0895b8983722f64d"
+    },
+    {
+      "path": "don-workspace/Caddyfile.snippet",
+      "bytes": 385,
+      "sha256": "95d3e25d4ddcb70523ec71d16212c0042745f9b954e2437eba08e09a0aeacfc5"
+    },
+    {
+      "path": "don-workspace/approve_device.py",
+      "bytes": 1575,
+      "sha256": "477f66538c99ebb46103a23944e1636353097488eddc1df728b49fcd528d31e1"
+    },
+    {
+      "path": "don-workspace/config.env.example",
+      "bytes": 270,
+      "sha256": "c9361fe86808e5e168becffe55e651eff6e4f46ccfdcae51d62b47c6a202782b"
+    },
+    {
+      "path": "don-workspace/dev_preview.py",
+      "bytes": 1382,
+      "sha256": "5c945d50db7816958f3b59cba6f6fbc2345a35da7d6821b3fa7c4a5adc6a48c1"
+    },
+    {
+      "path": "don-workspace/don-wall.service",
+      "bytes": 448,
+      "sha256": "59d7ddf585ca372db61cedf32e5a32e3afd4de57bd18a122d2d33c646e2c30a6"
+    },
+    {
+      "path": "don-workspace/migrate_wall_backup.py",
+      "bytes": 5259,
+      "sha256": "1075b1b79beeb402dd74450527cdb1b9b9af814565df342f7ce6d7dda625fa93"
+    },
+    {
+      "path": "don-workspace/public/app.css",
+      "bytes": 17571,
+      "sha256": "1bab62565eef53d86f957364f3c464c94db470dc808758fb7577107a1f451351"
+    },
+    {
+      "path": "don-workspace/public/app.js",
+      "bytes": 66355,
+      "sha256": "47c42229f1bd5c03f001bd393529e4a26113fc55c32d19da075b5edaea5230dd"
+    },
+    {
+      "path": "don-workspace/public/index.html",
+      "bytes": 6899,
+      "sha256": "b53d4db3920494fd4c1ecac98f5fcb3f025545b11050352ccc3d2aaa77abc08d"
+    },
+    {
+      "path": "don-workspace/public/login.html",
+      "bytes": 568,
+      "sha256": "379c7e345b5a5203d89c7a14e11ecad2ffbf1fecbf3e9a1ecd380d2ef04d099e"
+    },
+    {
+      "path": "don-workspace/requirements.txt",
+      "bytes": 72,
+      "sha256": "38a0101601749d8c53ec730f0923865f13b0c549eec144760e46aea98c3846a0"
+    },
+    {
+      "path": "don-workspace/run-don-wall.sh",
+      "bytes": 287,
+      "sha256": "079ae7113e9200300de3902eb041bf04131a843c559452eaacb456882f3c81f8"
+    },
+    {
+      "path": "don-workspace/server.py",
+      "bytes": 98956,
+      "sha256": "b162ba716eb424d8c61656fbbc76867097f5045ffc11e8c4eb5b15758ed26d63"
+    },
+    {
+      "path": "don-workspace/spotify_catalog.py",
+      "bytes": 5474,
+      "sha256": "6c576bfac0e6005c99ef9a0a22117249deb8ea78f44b16674958e77d1f0e9cbf"
+    },
+    {
+      "path": "don-workspace/supervisor.snippet",
+      "bytes": 433,
+      "sha256": "842d98324018e9e8dd14d2fe9783005e6d28f11ba423f86f9012dfaa0f01cc03"
+    },
+    {
+      "path": "don-workspace/tests/test_selfhost.py",
+      "bytes": 1875,
+      "sha256": "12aeb2bdb7c3f09259141c30a57ccec676dea853047d4b850b0857b89f75eb7e"
+    },
+    {
+      "path": "don-workspace/tests/test_server.py",
+      "bytes": 31543,
+      "sha256": "4ca003668b02409c19c401f3725e8e405b35f8a33174e38e35d43abb3ec011cf"
+    },
+    {
+      "path": "don-workspace/tests/test_spotify_catalog.py",
+      "bytes": 4004,
+      "sha256": "d265989203648d511d8b03a3d09150ae97de640b3eb7a43dd773d4331ec48804"
+    },
+    {
+      "path": "project.yml",
+      "bytes": 1183,
+      "sha256": "70a96fbe221f8665768830eb66544d6269a8d0af2c7bb83a918a452c0d460609"
+    }
+  ],
+  "inventory_self_excluded": true,
+  "omissions": [
+    {
+      "path": "dist",
+      "reason": "runtime/generated/private/deployment directory"
+    },
+    {
+      "path": "deploy",
+      "reason": "runtime/generated/private/deployment directory"
+    },
+    {
+      "path": "wipe-wall-landscape-qa.jpeg",
+      "reason": "personal/media/binary/signing/data file"
+    },
+    {
+      "path": "don-workspace/__pycache__",
+      "reason": "runtime/generated/private/deployment directory"
+    },
+    {
+      "path": "don-workspace/tests/__pycache__",
+      "reason": "runtime/generated/private/deployment directory"
+    },
+    {
+      "path": "WipeWall.xcodeproj/project.xcworkspace/xcuserdata",
+      "reason": "runtime/generated/private/deployment directory"
+    },
+    {
+      "path": "WipeWall/Audio/579256__bluedeer__animemoan.mp3",
+      "reason": "personal/media/binary/signing/data file"
+    },
+    {
+      "path": "Packaging/AppSyncEntitlements.plist",
+      "reason": "Historical packaging replaced by normal Apple signing instructions"
+    },
+    {
+      "path": "don-workspace/insert_caddy.py",
+      "reason": "Original host/client-specific Caddy editing utility omitted"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Replace the invalid hostname with your own domain. Caddy obtains HTTPS.
+wall.example.invalid {
+    header {
+        >X-Content-Type-Options "nosniff"
+        >Referrer-Policy "no-referrer"
+        -Server
+    }
+    request_body {
+        max_size 15MB
+    }
+    reverse_proxy 127.0.0.1:4422 {
+        header_up X-Wall-Client-IP {client_ip}
+        header_up -X-Forwarded-For
+    }
+}

@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F3DCFF6DE7ED722F513CDE /* GIFBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E24E4FEE5385C0E86F78A8 /* GIFBrowserView.swift */; };
+		0C52E65CF9F26C3A21011265 /* SoundCloudSonosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE0640088D5DC55B67EB9C /* SoundCloudSonosService.swift */; };
+		0C97E93ACBB1579589755B60 /* WipeWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7153CDCF5A450EE80F22DC1 /* WipeWallTests.swift */; };
+		0D7B7FACA4E4750BCE2A1BDA /* wall-gif-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B53DB847A4E27B04D088C6F /* wall-gif-1.gif */; };
+		126522D9ABFD46888BE00EAE /* WallMusicPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D86EE38385E1A4AE37366 /* WallMusicPanelView.swift */; };
+		1D8241620DBB791F36553611 /* WallStrangeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B020748039365B82C24D9E /* WallStrangeWidgets.swift */; };
+		1F9CFBCCCA95105AFE3BF61E /* HomeToolRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24FECCDF01D657435165BB /* HomeToolRouter.swift */; };
+		23E229AED6CC39F8AEB41CB1 /* WeatherSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD70F263C967D2A10B5EC60 /* WeatherSignalView.swift */; };
+		24D526F2C5F366F8F227EF88 /* WallCloudSyncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76619603F5AB8F01C0D98CA4 /* WallCloudSyncController.swift */; };
+		265507553627367B30E00A81 /* WallMusicSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5043405917677F35E7A7AAC9 /* WallMusicSource.swift */; };
+		2C5F0D3933F026B2E1D71AAF /* EphemeralInkCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5323CFC128FD628A5D1C7D19 /* EphemeralInkCanvas.swift */; };
+		2C6ADE240024A6238E891181 /* AnimatedGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40122399049AE76B4161A53 /* AnimatedGIFView.swift */; };
+		2DA1DDD82E14CA2E7E953328 /* RealtimeSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95054CB85C1DE0D38FA5F8DB /* RealtimeSecrets.swift */; };
+		2EF257E225A3F2CE4DE8BEBD /* photo-booth-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89DE4D354207BFA2E9333F8A /* photo-booth-3.gif */; };
+		33EC6FC172AD5BF7F34B0C23 /* WallOutsideTapBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC3410BEE4738AE574BAB0 /* WallOutsideTapBridge.swift */; };
+		36018C2CEE17CADE39C853DB /* RealtimeAudioIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F7FE0AB5857982008CFEF /* RealtimeAudioIO.swift */; };
+		3AC509DCFB58EF76437AC62A /* TransitTickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331837A69DD67C094D7520B8 /* TransitTickerView.swift */; };
+		3CB9FC14F50202AFD286168C /* SonosNativePlaylistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F625772EBA65AB3C8D423 /* SonosNativePlaylistService.swift */; };
+		3CBBD5243BE73B5466CE5FC0 /* ClockClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C241B56B6E3859AA957920FA /* ClockClockView.swift */; };
+		3D6501D5CAAB8BBE4293C351 /* WallConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA826C5258AFB3F5941AA17 /* WallConfigurationTests.swift */; };
+		4981EE22B47B94D4E2A868E4 /* TransitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0420D67BCA01B690A4DBAA /* TransitService.swift */; };
+		498D4D8BD5D16971E9300453 /* WakeWordListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CEC7EBA2C69A7FD74C05A /* WakeWordListener.swift */; };
+		4C5CF110985A196A8C97F19A /* photo-booth-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD28EEB439BBF89AC704F01C /* photo-booth-4.gif */; };
+		52E7888134E1A476ECABEBDC /* WallWidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32103D54B54142CED7E623E2 /* WallWidgetStore.swift */; };
+		5355B27F52837C4116BAEA4E /* SpotifyAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ED1EF11F8B89C83C733DB /* SpotifyAccountService.swift */; };
+		59AE01A10F15D7B125957EE6 /* SonosNowPlayingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6439861C3F5DD787BB03D281 /* SonosNowPlayingWidget.swift */; };
+		5D5FA48B92BA2725DF3E862E /* WallConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E0A826D15FBD89FD24028F /* WallConfiguration.swift */; };
+		5E53154E9613CC856E644745 /* photo-booth-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E57E63D84761B2EA9992BA9C /* photo-booth-2.gif */; };
+		603B75715E73F0ECFD163301 /* PhotoBoothModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71C00CB65003936F28247E /* PhotoBoothModeView.swift */; };
+		6569A6EB7EE5E35F3BE97A25 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EB4323475E1475BFBA65E /* DashboardModel.swift */; };
+		6FC971DDAAB1519390DBB18E /* WallTransformGestureSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C274047CF294E696D375E4 /* WallTransformGestureSurface.swift */; };
+		730845BA985EEE4EDC388E7D /* DonVoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3829C954A257F04ABFF21 /* DonVoiceController.swift */; };
+		73625D0F66E85F6B76F59EDC /* SiftSonosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438110A7FDDC148CBB5D183 /* SiftSonosService.swift */; };
+		7441D2146FB4FF8DB6452F29 /* DonBridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585F030CBFC6C5F70A227A41 /* DonBridgeClient.swift */; };
+		789AC968A88FF5F3AB3B6B43 /* MovableWallElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332B38DB22403D8C7BEA5D2 /* MovableWallElement.swift */; };
+		8297DFC129E1CCFFD01AFFB9 /* WallEditLongPressBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC840BBAD2DC92D432C71F9 /* WallEditLongPressBridge.swift */; };
+		8AAD526FB3F0C9BE9B0D39FA /* FitPicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278260C21D98BC8A80DB4884 /* FitPicController.swift */; };
+		8F4834FA8A5417ABCACE54FA /* WallClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCC5AC817A703836C9F280D /* WallClockView.swift */; };
+		9715980F4AA487D7CE4B5349 /* WallSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178AE455E3A13203CE44570 /* WallSettingsView.swift */; };
+		971C4ED3F684D0C248AB232D /* PhotoBoothVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1F67B40711B02ACC76F388 /* PhotoBoothVideoView.swift */; };
+		9C62F829C4783B372EE57A90 /* WipeWallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63417D1CF53F45B6634F47B2 /* WipeWallApp.swift */; };
+		9FBA8513B732F21D8390FCB9 /* SonosMusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817960534771331966B53171 /* SonosMusicService.swift */; };
+		A01EBC0316FDF77EE46C3FCF /* VoicePresenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88F47F4DF5D33920D75090D /* VoicePresenceView.swift */; };
+		A16F5766BD533B46D64F6BF0 /* photo-booth-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98D12F89230577A999AA5901 /* photo-booth-1.gif */; };
+		A306E449B881B5F759CF477A /* WallTouchArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B40906EB532D431CC11A /* WallTouchArchitectureUITests.swift */; };
+		A7387CE2EA13A1C391B9C540 /* PhotoBoothGuestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E193A4B1B18E1A6DBAC068E4 /* PhotoBoothGuestClient.swift */; };
+		AF33273DD5B06AD12FBC0C3D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F4EC3E827ED982C4A409A /* WeatherService.swift */; };
+		B016AEBCFAB489CDA3E6232D /* SonosNowPlayingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792719C0F57CFF480B3C6D0 /* SonosNowPlayingTests.swift */; };
+		B33774B7F781E623F55139E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B38EB87491AF9C1D0F3BD7 /* Assets.xcassets */; };
+		B392BA7682C35716E34D735F /* GoonCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C7A737314841B508D8C50 /* GoonCounterView.swift */; };
+		C471F32509F2A6C0FA15DA34 /* FitPicUploadClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63826037171B66E08D3E5531 /* FitPicUploadClient.swift */; };
+		CA676BAD14C78B30492D69EF /* WallWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0E1F2CBB4B00A93429972 /* WallWidgets.swift */; };
+		D1E2A0CA9071439CF8C5EFEC /* RealtimeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6143F1E584CDB0B773FF07 /* RealtimeClient.swift */; };
+		D3DB9DB94B7AA63236AA0FD7 /* WallModalInactivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EA305A053072867DB56723 /* WallModalInactivity.swift */; };
+		D5F032467188DFA2C5FE3231 /* GoonLogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6CB51FEF768D94A67F09B /* GoonLogClient.swift */; };
+		D9693B4F749FFDA84C278F7A /* WallSonosRemoteRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80DDE86EB83A2607BBCB8 /* WallSonosRemoteRelay.swift */; };
+		DDD40BF19BDE5B5C77F8C663 /* InstantActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC584B0C77E154BFE10CB31 /* InstantActionButton.swift */; };
+		E527B60D52E3EFB5873C9E0C /* WallCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0FBA85FF05207468A96C2 /* WallCanvasView.swift */; };
+		EE41058C693527EBAB4C2775 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C232D7118D55B7E2F42071 /* PhotoGalleryView.swift */; };
+		EED0817FF3A6FF01677A3E2B /* NoteCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5254D3A546E2CEAEE0D78 /* NoteCanvasView.swift */; };
+		F72969A3657824AE6F65E9F0 /* wall-gif-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5FD660EB77A9748DF5040C74 /* wall-gif-2.gif */; };
+		F949A3EAF403A3948F1E3D75 /* SonosNowPlayingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649E900B251F05ECDE1107C /* SonosNowPlayingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293BD4630EA58C66D07DA217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4F0FC45C51D891745F9AB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7165C928D8E7846CDB94E1B;
+			remoteInfo = WipeWall;
+		};
+		F3AC19211E3F65A2AB23E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4F0FC45C51D891745F9AB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7165C928D8E7846CDB94E1B;
+			remoteInfo = WipeWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EA305A053072867DB56723 /* WallModalInactivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallModalInactivity.swift; sourceTree = "<group>"; };
+		0610B40906EB532D431CC11A /* WallTouchArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallTouchArchitectureUITests.swift; sourceTree = "<group>"; };
+		0BC840BBAD2DC92D432C71F9 /* WallEditLongPressBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallEditLongPressBridge.swift; sourceTree = "<group>"; };
+		0EF6CB51FEF768D94A67F09B /* GoonLogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoonLogClient.swift; sourceTree = "<group>"; };
+		1178AE455E3A13203CE44570 /* WallSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallSettingsView.swift; sourceTree = "<group>"; };
+		225ED1EF11F8B89C83C733DB /* SpotifyAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAccountService.swift; sourceTree = "<group>"; };
+		2332B38DB22403D8C7BEA5D2 /* MovableWallElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovableWallElement.swift; sourceTree = "<group>"; };
+		24C232D7118D55B7E2F42071 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
+		24C274047CF294E696D375E4 /* WallTransformGestureSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallTransformGestureSurface.swift; sourceTree = "<group>"; };
+		2649E900B251F05ECDE1107C /* SonosNowPlayingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosNowPlayingService.swift; sourceTree = "<group>"; };
+		278260C21D98BC8A80DB4884 /* FitPicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPicController.swift; sourceTree = "<group>"; };
+		2792719C0F57CFF480B3C6D0 /* SonosNowPlayingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosNowPlayingTests.swift; sourceTree = "<group>"; };
+		2E6143F1E584CDB0B773FF07 /* RealtimeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeClient.swift; sourceTree = "<group>"; };
+		32103D54B54142CED7E623E2 /* WallWidgetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWidgetStore.swift; sourceTree = "<group>"; };
+		331837A69DD67C094D7520B8 /* TransitTickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitTickerView.swift; sourceTree = "<group>"; };
+		34198E83F048462821464744 /* WipeWallTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WipeWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		347CEC7EBA2C69A7FD74C05A /* WakeWordListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeWordListener.swift; sourceTree = "<group>"; };
+		36B020748039365B82C24D9E /* WallStrangeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallStrangeWidgets.swift; sourceTree = "<group>"; };
+		3B53DB847A4E27B04D088C6F /* wall-gif-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "wall-gif-1.gif"; sourceTree = "<group>"; };
+		3F71C00CB65003936F28247E /* PhotoBoothModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBoothModeView.swift; sourceTree = "<group>"; };
+		429D86EE38385E1A4AE37366 /* WallMusicPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallMusicPanelView.swift; sourceTree = "<group>"; };
+		4438110A7FDDC148CBB5D183 /* SiftSonosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiftSonosService.swift; sourceTree = "<group>"; };
+		4AD70F263C967D2A10B5EC60 /* WeatherSignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSignalView.swift; sourceTree = "<group>"; };
+		5043405917677F35E7A7AAC9 /* WallMusicSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallMusicSource.swift; sourceTree = "<group>"; };
+		5323CFC128FD628A5D1C7D19 /* EphemeralInkCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EphemeralInkCanvas.swift; sourceTree = "<group>"; };
+		585F030CBFC6C5F70A227A41 /* DonBridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonBridgeClient.swift; sourceTree = "<group>"; };
+		5FD660EB77A9748DF5040C74 /* wall-gif-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "wall-gif-2.gif"; sourceTree = "<group>"; };
+		63417D1CF53F45B6634F47B2 /* WipeWallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipeWallApp.swift; sourceTree = "<group>"; };
+		63826037171B66E08D3E5531 /* FitPicUploadClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPicUploadClient.swift; sourceTree = "<group>"; };
+		6439861C3F5DD787BB03D281 /* SonosNowPlayingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosNowPlayingWidget.swift; sourceTree = "<group>"; };
+		6C24FECCDF01D657435165BB /* HomeToolRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeToolRouter.swift; sourceTree = "<group>"; };
+		6EC584B0C77E154BFE10CB31 /* InstantActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantActionButton.swift; sourceTree = "<group>"; };
+		6F5EB4323475E1475BFBA65E /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		6FF0E1F2CBB4B00A93429972 /* WallWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWidgets.swift; sourceTree = "<group>"; };
+		754F7FE0AB5857982008CFEF /* RealtimeAudioIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeAudioIO.swift; sourceTree = "<group>"; };
+		76619603F5AB8F01C0D98CA4 /* WallCloudSyncController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallCloudSyncController.swift; sourceTree = "<group>"; };
+		79B38EB87491AF9C1D0F3BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B3C7A737314841B508D8C50 /* GoonCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoonCounterView.swift; sourceTree = "<group>"; };
+		7EBC3410BEE4738AE574BAB0 /* WallOutsideTapBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallOutsideTapBridge.swift; sourceTree = "<group>"; };
+		817960534771331966B53171 /* SonosMusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosMusicService.swift; sourceTree = "<group>"; };
+		89DE4D354207BFA2E9333F8A /* photo-booth-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "photo-booth-3.gif"; sourceTree = "<group>"; };
+		95054CB85C1DE0D38FA5F8DB /* RealtimeSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeSecrets.swift; sourceTree = "<group>"; };
+		98D12F89230577A999AA5901 /* photo-booth-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "photo-booth-1.gif"; sourceTree = "<group>"; };
+		A04F4EC3E827ED982C4A409A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		AC1F67B40711B02ACC76F388 /* PhotoBoothVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBoothVideoView.swift; sourceTree = "<group>"; };
+		AF0420D67BCA01B690A4DBAA /* TransitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitService.swift; sourceTree = "<group>"; };
+		B4D0FBA85FF05207468A96C2 /* WallCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallCanvasView.swift; sourceTree = "<group>"; };
+		BDF80DDE86EB83A2607BBCB8 /* WallSonosRemoteRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallSonosRemoteRelay.swift; sourceTree = "<group>"; };
+		BE0F625772EBA65AB3C8D423 /* SonosNativePlaylistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosNativePlaylistService.swift; sourceTree = "<group>"; };
+		BFA5254D3A546E2CEAEE0D78 /* NoteCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCanvasView.swift; sourceTree = "<group>"; };
+		C1C44861EB33B0649EAC2394 /* WipeWallUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WipeWallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C241B56B6E3859AA957920FA /* ClockClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockClockView.swift; sourceTree = "<group>"; };
+		C88F47F4DF5D33920D75090D /* VoicePresenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePresenceView.swift; sourceTree = "<group>"; };
+		CFB3829C954A257F04ABFF21 /* DonVoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonVoiceController.swift; sourceTree = "<group>"; };
+		D32C0CE7DEB0FF6563EAC1C9 /* WipeWall.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WipeWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F10C3EA5D504E92E94BF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D6E0A826D15FBD89FD24028F /* WallConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallConfiguration.swift; sourceTree = "<group>"; };
+		DBCC5AC817A703836C9F280D /* WallClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallClockView.swift; sourceTree = "<group>"; };
+		E193A4B1B18E1A6DBAC068E4 /* PhotoBoothGuestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBoothGuestClient.swift; sourceTree = "<group>"; };
+		E57E63D84761B2EA9992BA9C /* photo-booth-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "photo-booth-2.gif"; sourceTree = "<group>"; };
+		EAAE0640088D5DC55B67EB9C /* SoundCloudSonosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudSonosService.swift; sourceTree = "<group>"; };
+		EDA826C5258AFB3F5941AA17 /* WallConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallConfigurationTests.swift; sourceTree = "<group>"; };
+		F1E24E4FEE5385C0E86F78A8 /* GIFBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFBrowserView.swift; sourceTree = "<group>"; };
+		F40122399049AE76B4161A53 /* AnimatedGIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGIFView.swift; sourceTree = "<group>"; };
+		F7153CDCF5A450EE80F22DC1 /* WipeWallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipeWallTests.swift; sourceTree = "<group>"; };
+		FD28EEB439BBF89AC704F01C /* photo-booth-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "photo-booth-4.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A45600CF63D157FDBAE7B2F /* WipeWallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0610B40906EB532D431CC11A /* WallTouchArchitectureUITests.swift */,
+			);
+			path = WipeWallUITests;
+			sourceTree = "<group>";
+		};
+		4BBF9D598D7A293987628376 = {
+			isa = PBXGroup;
+			children = (
+				F408FA668CCD51937AB48F8A /* WipeWall */,
+				E29B5817B28683ADA2951988 /* WipeWallTests */,
+				1A45600CF63D157FDBAE7B2F /* WipeWallUITests */,
+				E3850BFAA899817C78DADA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E95A08AF55C01ABA34D4963 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				278260C21D98BC8A80DB4884 /* FitPicController.swift */,
+				63826037171B66E08D3E5531 /* FitPicUploadClient.swift */,
+				E193A4B1B18E1A6DBAC068E4 /* PhotoBoothGuestClient.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		5F0E32D53AE0E7A5CB204BA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0EF6CB51FEF768D94A67F09B /* GoonLogClient.swift */,
+				4438110A7FDDC148CBB5D183 /* SiftSonosService.swift */,
+				817960534771331966B53171 /* SonosMusicService.swift */,
+				BE0F625772EBA65AB3C8D423 /* SonosNativePlaylistService.swift */,
+				2649E900B251F05ECDE1107C /* SonosNowPlayingService.swift */,
+				EAAE0640088D5DC55B67EB9C /* SoundCloudSonosService.swift */,
+				225ED1EF11F8B89C83C733DB /* SpotifyAccountService.swift */,
+				AF0420D67BCA01B690A4DBAA /* TransitService.swift */,
+				76619603F5AB8F01C0D98CA4 /* WallCloudSyncController.swift */,
+				5043405917677F35E7A7AAC9 /* WallMusicSource.swift */,
+				BDF80DDE86EB83A2607BBCB8 /* WallSonosRemoteRelay.swift */,
+				A04F4EC3E827ED982C4A409A /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		954EF175B0C69440F234D5A4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6F5EB4323475E1475BFBA65E /* DashboardModel.swift */,
+				D6E0A826D15FBD89FD24028F /* WallConfiguration.swift */,
+				63417D1CF53F45B6634F47B2 /* WipeWallApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD2A0585294324B0F156A08C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F40122399049AE76B4161A53 /* AnimatedGIFView.swift */,
+				C241B56B6E3859AA957920FA /* ClockClockView.swift */,
+				5323CFC128FD628A5D1C7D19 /* EphemeralInkCanvas.swift */,
+				F1E24E4FEE5385C0E86F78A8 /* GIFBrowserView.swift */,
+				7B3C7A737314841B508D8C50 /* GoonCounterView.swift */,
+				6EC584B0C77E154BFE10CB31 /* InstantActionButton.swift */,
+				2332B38DB22403D8C7BEA5D2 /* MovableWallElement.swift */,
+				BFA5254D3A546E2CEAEE0D78 /* NoteCanvasView.swift */,
+				3F71C00CB65003936F28247E /* PhotoBoothModeView.swift */,
+				AC1F67B40711B02ACC76F388 /* PhotoBoothVideoView.swift */,
+				24C232D7118D55B7E2F42071 /* PhotoGalleryView.swift */,
+				6439861C3F5DD787BB03D281 /* SonosNowPlayingWidget.swift */,
+				331837A69DD67C094D7520B8 /* TransitTickerView.swift */,
+				C88F47F4DF5D33920D75090D /* VoicePresenceView.swift */,
+				B4D0FBA85FF05207468A96C2 /* WallCanvasView.swift */,
+				DBCC5AC817A703836C9F280D /* WallClockView.swift */,
+				0BC840BBAD2DC92D432C71F9 /* WallEditLongPressBridge.swift */,
+				01EA305A053072867DB56723 /* WallModalInactivity.swift */,
+				429D86EE38385E1A4AE37366 /* WallMusicPanelView.swift */,
+				7EBC3410BEE4738AE574BAB0 /* WallOutsideTapBridge.swift */,
+				1178AE455E3A13203CE44570 /* WallSettingsView.swift */,
+				36B020748039365B82C24D9E /* WallStrangeWidgets.swift */,
+				24C274047CF294E696D375E4 /* WallTransformGestureSurface.swift */,
+				6FF0E1F2CBB4B00A93429972 /* WallWidgets.swift */,
+				32103D54B54142CED7E623E2 /* WallWidgetStore.swift */,
+				4AD70F263C967D2A10B5EC60 /* WeatherSignalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF4268B3F72ACA346FD2F58E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98D12F89230577A999AA5901 /* photo-booth-1.gif */,
+				E57E63D84761B2EA9992BA9C /* photo-booth-2.gif */,
+				89DE4D354207BFA2E9333F8A /* photo-booth-3.gif */,
+				FD28EEB439BBF89AC704F01C /* photo-booth-4.gif */,
+				3B53DB847A4E27B04D088C6F /* wall-gif-1.gif */,
+				5FD660EB77A9748DF5040C74 /* wall-gif-2.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E29B5817B28683ADA2951988 /* WipeWallTests */ = {
+			isa = PBXGroup;
+			children = (
+				2792719C0F57CFF480B3C6D0 /* SonosNowPlayingTests.swift */,
+				EDA826C5258AFB3F5941AA17 /* WallConfigurationTests.swift */,
+				F7153CDCF5A450EE80F22DC1 /* WipeWallTests.swift */,
+			);
+			path = WipeWallTests;
+			sourceTree = "<group>";
+		};
+		E3850BFAA899817C78DADA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32C0CE7DEB0FF6563EAC1C9 /* WipeWall.app */,
+				34198E83F048462821464744 /* WipeWallTests.xctest */,
+				C1C44861EB33B0649EAC2394 /* WipeWallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB1B29B90D68044BA8459B16 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				585F030CBFC6C5F70A227A41 /* DonBridgeClient.swift */,
+				CFB3829C954A257F04ABFF21 /* DonVoiceController.swift */,
+				6C24FECCDF01D657435165BB /* HomeToolRouter.swift */,
+				754F7FE0AB5857982008CFEF /* RealtimeAudioIO.swift */,
+				2E6143F1E584CDB0B773FF07 /* RealtimeClient.swift */,
+				95054CB85C1DE0D38FA5F8DB /* RealtimeSecrets.swift */,
+				347CEC7EBA2C69A7FD74C05A /* WakeWordListener.swift */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		F408FA668CCD51937AB48F8A /* WipeWall */ = {
+			isa = PBXGroup;
+			children = (
+				79B38EB87491AF9C1D0F3BD7 /* Assets.xcassets */,
+				D5F10C3EA5D504E92E94BF10 /* Info.plist */,
+				954EF175B0C69440F234D5A4 /* App */,
+				5E95A08AF55C01ABA34D4963 /* Camera */,
+				CF4268B3F72ACA346FD2F58E /* Resources */,
+				5F0E32D53AE0E7A5CB204BA4 /* Services */,
+				AD2A0585294324B0F156A08C /* Views */,
+				EB1B29B90D68044BA8459B16 /* Voice */,
+			);
+			path = WipeWall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ED45563749DAE57BC243B82 /* WipeWallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DFE09776A8B6A950C96D2C /* Build configuration list for PBXNativeTarget "WipeWallTests" */;
+			buildPhases = (
+				6FC8EE126BAD8B31821E91B1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6E771E0330714C4E8F0859 /* PBXTargetDependency */,
+			);
+			name = WipeWallTests;
+			packageProductDependencies = (
+			);
+			productName = WipeWallTests;
+			productReference = 34198E83F048462821464744 /* WipeWallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58C175FA286D6D5C95ABB2A7 /* WipeWallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967BC40FB8FA9B880510119E /* Build configuration list for PBXNativeTarget "WipeWallUITests" */;
+			buildPhases = (
+				C7CDC6698324DA3BF8BE2E59 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E041D26C948C44D233ED19 /* PBXTargetDependency */,
+			);
+			name = WipeWallUITests;
+			packageProductDependencies = (
+			);
+			productName = WipeWallUITests;
+			productReference = C1C44861EB33B0649EAC2394 /* WipeWallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B7165C928D8E7846CDB94E1B /* WipeWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069EE647C4C4F5F5E7E54D54 /* Build configuration list for PBXNativeTarget "WipeWall" */;
+			buildPhases = (
+				96C5F4F82D4154CD0619DA80 /* Sources */,
+				737CFC814C6FFBA4BA55E00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WipeWall;
+			packageProductDependencies = (
+			);
+			productName = WipeWall;
+			productReference = D32C0CE7DEB0FF6563EAC1C9 /* WipeWall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4F0FC45C51D891745F9AB11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3ED45563749DAE57BC243B82 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					58C175FA286D6D5C95ABB2A7 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7165C928D8E7846CDB94E1B;
+					};
+					B7165C928D8E7846CDB94E1B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE073387E41B918028174158 /* Build configuration list for PBXProject "WipeWall" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4BBF9D598D7A293987628376;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E3850BFAA899817C78DADA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7165C928D8E7846CDB94E1B /* WipeWall */,
+				3ED45563749DAE57BC243B82 /* WipeWallTests */,
+				58C175FA286D6D5C95ABB2A7 /* WipeWallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737CFC814C6FFBA4BA55E00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33774B7F781E623F55139E3 /* Assets.xcassets in Resources */,
+				A16F5766BD533B46D64F6BF0 /* photo-booth-1.gif in Resources */,
+				5E53154E9613CC856E644745 /* photo-booth-2.gif in Resources */,
+				2EF257E225A3F2CE4DE8BEBD /* photo-booth-3.gif in Resources */,
+				4C5CF110985A196A8C97F19A /* photo-booth-4.gif in Resources */,
+				0D7B7FACA4E4750BCE2A1BDA /* wall-gif-1.gif in Resources */,
+				F72969A3657824AE6F65E9F0 /* wall-gif-2.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FC8EE126BAD8B31821E91B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B016AEBCFAB489CDA3E6232D /* SonosNowPlayingTests.swift in Sources */,
+				3D6501D5CAAB8BBE4293C351 /* WallConfigurationTests.swift in Sources */,
+				0C97E93ACBB1579589755B60 /* WipeWallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5F4F82D4154CD0619DA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6ADE240024A6238E891181 /* AnimatedGIFView.swift in Sources */,
+				3CBBD5243BE73B5466CE5FC0 /* ClockClockView.swift in Sources */,
+				6569A6EB7EE5E35F3BE97A25 /* DashboardModel.swift in Sources */,
+				7441D2146FB4FF8DB6452F29 /* DonBridgeClient.swift in Sources */,
+				730845BA985EEE4EDC388E7D /* DonVoiceController.swift in Sources */,
+				2C5F0D3933F026B2E1D71AAF /* EphemeralInkCanvas.swift in Sources */,
+				8AAD526FB3F0C9BE9B0D39FA /* FitPicController.swift in Sources */,
+				C471F32509F2A6C0FA15DA34 /* FitPicUploadClient.swift in Sources */,
+				07F3DCFF6DE7ED722F513CDE /* GIFBrowserView.swift in Sources */,
+				B392BA7682C35716E34D735F /* GoonCounterView.swift in Sources */,
+				D5F032467188DFA2C5FE3231 /* GoonLogClient.swift in Sources */,
+				1F9CFBCCCA95105AFE3BF61E /* HomeToolRouter.swift in Sources */,
+				DDD40BF19BDE5B5C77F8C663 /* InstantActionButton.swift in Sources */,
+				789AC968A88FF5F3AB3B6B43 /* MovableWallElement.swift in Sources */,
+				EED0817FF3A6FF01677A3E2B /* NoteCanvasView.swift in Sources */,
+				A7387CE2EA13A1C391B9C540 /* PhotoBoothGuestClient.swift in Sources */,
+				603B75715E73F0ECFD163301 /* PhotoBoothModeView.swift in Sources */,
+				971C4ED3F684D0C248AB232D /* PhotoBoothVideoView.swift in Sources */,
+				EE41058C693527EBAB4C2775 /* PhotoGalleryView.swift in Sources */,
+				36018C2CEE17CADE39C853DB /* RealtimeAudioIO.swift in Sources */,
+				D1E2A0CA9071439CF8C5EFEC /* RealtimeClient.swift in Sources */,
+				2DA1DDD82E14CA2E7E953328 /* RealtimeSecrets.swift in Sources */,
+				73625D0F66E85F6B76F59EDC /* SiftSonosService.swift in Sources */,
+				9FBA8513B732F21D8390FCB9 /* SonosMusicService.swift in Sources */,
+				3CB9FC14F50202AFD286168C /* SonosNativePlaylistService.swift in Sources */,
+				F949A3EAF403A3948F1E3D75 /* SonosNowPlayingService.swift in Sources */,
+				59AE01A10F15D7B125957EE6 /* SonosNowPlayingWidget.swift in Sources */,
+				0C52E65CF9F26C3A21011265 /* SoundCloudSonosService.swift in Sources */,
+				5355B27F52837C4116BAEA4E /* SpotifyAccountService.swift in Sources */,
+				4981EE22B47B94D4E2A868E4 /* TransitService.swift in Sources */,
+				3AC509DCFB58EF76437AC62A /* TransitTickerView.swift in Sources */,
+				A01EBC0316FDF77EE46C3FCF /* VoicePresenceView.swift in Sources */,
+				498D4D8BD5D16971E9300453 /* WakeWordListener.swift in Sources */,
+				E527B60D52E3EFB5873C9E0C /* WallCanvasView.swift in Sources */,
+				8F4834FA8A5417ABCACE54FA /* WallClockView.swift in Sources */,
+				24D526F2C5F366F8F227EF88 /* WallCloudSyncController.swift in Sources */,
+				5D5FA48B92BA2725DF3E862E /* WallConfiguration.swift in Sources */,
+				8297DFC129E1CCFFD01AFFB9 /* WallEditLongPressBridge.swift in Sources */,
+				D3DB9DB94B7AA63236AA0FD7 /* WallModalInactivity.swift in Sources */,
+				126522D9ABFD46888BE00EAE /* WallMusicPanelView.swift in Sources */,
+				265507553627367B30E00A81 /* WallMusicSource.swift in Sources */,
+				33EC6FC172AD5BF7F34B0C23 /* WallOutsideTapBridge.swift in Sources */,
+				9715980F4AA487D7CE4B5349 /* WallSettingsView.swift in Sources */,
+				D9693B4F749FFDA84C278F7A /* WallSonosRemoteRelay.swift in Sources */,
+				1D8241620DBB791F36553611 /* WallStrangeWidgets.swift in Sources */,
+				6FC971DDAAB1519390DBB18E /* WallTransformGestureSurface.swift in Sources */,
+				52E7888134E1A476ECABEBDC /* WallWidgetStore.swift in Sources */,
+				CA676BAD14C78B30492D69EF /* WallWidgets.swift in Sources */,
+				AF33273DD5B06AD12FBC0C3D /* WeatherService.swift in Sources */,
+				23E229AED6CC39F8AEB41CB1 /* WeatherSignalView.swift in Sources */,
+				9C62F829C4783B372EE57A90 /* WipeWallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CDC6698324DA3BF8BE2E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A306E449B881B5F759CF477A /* WallTouchArchitectureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B6E771E0330714C4E8F0859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7165C928D8E7846CDB94E1B /* WipeWall */;
+			targetProxy = 293BD4630EA58C66D07DA217 /* PBXContainerItemProxy */;
+		};
+		77E041D26C948C44D233ED19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7165C928D8E7846CDB94E1B /* WipeWall */;
+			targetProxy = F3AC19211E3F65A2AB23E91E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D6E0ECBBC24155D094C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WipeWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.wall.wipewall;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7150EC0C88E9F6A5B7590DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		94F255032DC7F614639EC8BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.wall.wipewall.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WipeWall.app/WipeWall";
+			};
+			name = Debug;
+		};
+		95E96DA8514F41F6701BAF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.wall.wipewall.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WipeWall;
+			};
+			name = Debug;
+		};
+		9A8433121A0E606625253567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WipeWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.wall.wipewall;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		BED08995DCF800D515A3144B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.wall.wipewall.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WipeWall;
+			};
+			name = Release;
+		};
+		D65336E036F44CC620D964A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FC833F7F0A609600DC9100AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.wall.wipewall.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WipeWall.app/WipeWall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069EE647C4C4F5F5E7E54D54 /* Build configuration list for PBXNativeTarget "WipeWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D6E0ECBBC24155D094C740 /* Debug */,
+				9A8433121A0E606625253567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62DFE09776A8B6A950C96D2C /* Build configuration list for PBXNativeTarget "WipeWallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F255032DC7F614639EC8BF /* Debug */,
+				FC833F7F0A609600DC9100AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		967BC40FB8FA9B880510119E /* Build configuration list for PBXNativeTarget "WipeWallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E96DA8514F41F6701BAF38 /* Debug */,
+				BED08995DCF800D515A3144B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE073387E41B918028174158 /* Build configuration list for PBXProject "WipeWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7150EC0C88E9F6A5B7590DD4 /* Debug */,
+				D65336E036F44CC620D964A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4F0FC45C51D891745F9AB11 /* Project object */;
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wall</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header>
+    <h1>Wall</h1>
+    <nav aria-label="View">
+      <button id="video" class="active" type="button">video</button>
+      <button id="gallery" type="button">gallery</button>
+      <button id="icons" type="button">icons</button>
+      <button id="goons" type="button">goon log</button>
+      <button id="wall" type="button">wall</button>
+      <button id="booth" type="button">photo booth</button>
+      <button id="settings" type="button">settings</button>
+      <form method="post" action="/logout"><button type="submit">leave</button></form>
+    </nav>
+  </header>
+  <main>
+    <section id="wall-view" class="wall-view" aria-label="Wall canvas">
+      <div id="canvas-stage" class="canvas-stage" tabindex="0" aria-label="Editable Wall canvas">
+        <canvas id="ink-layer" width="1024" height="768" aria-hidden="true"></canvas>
+        <div id="clock-block" class="clock-block">
+          <time id="wall-date"></time>
+          <time id="wall-time"></time>
+        </div>
+        <div id="wall-weather" class="wall-weather canvas-object" aria-label="New York weather"></div>
+        <div id="wall-transit" class="wall-transit canvas-object" aria-label="L and M train alerts"></div>
+        <div id="wall-note" class="wall-note" tabindex="0"></div>
+        <div id="wall-goons" class="wall-goons canvas-object" aria-label="Goon counter"></div>
+        <div id="wall-sonos" class="wall-sonos canvas-object" aria-label="Sonos player"></div>
+        <div id="widget-layer" class="widget-layer"></div>
+        <div id="gif-layer" class="gif-layer"></div>
+        <div id="selection-toolbar" class="selection-toolbar" hidden>
+          <button id="send-back" type="button" aria-label="Send all the way to back">▱◼</button>
+          <button id="bring-front" type="button" aria-label="Bring all the way to front">◼▱</button>
+          <button id="snap-rotation" type="button" aria-label="Snap rotation">↻</button>
+          <button id="delete-object" type="button" aria-label="Delete selected object">×</button>
+        </div>
+        <div class="canvas-controls">
+          <button id="draw-toggle" type="button" aria-label="Draw">✎</button>
+          <button id="undo-drawing" type="button" aria-label="Undo drawing">↶</button>
+          <button id="add-gif" type="button">.gif</button>
+          <button id="add-widget" type="button" aria-label="Add a widget">+</button>
+          <input id="gif-upload" type="file" accept="image/gif" hidden>
+        </div>
+      </div>
+      <p id="sync-status" class="sync-status" aria-live="polite"></p>
+    </section>
+    <section id="video-view" class="video-view" aria-label="Rapid fit pic loop" hidden>
+      <img id="video-image" alt="Wall fit pic loop">
+      <div class="video-meta"><time id="video-time"></time></div>
+    </section>
+    <section id="photos" class="photos gallery" aria-live="polite" hidden></section>
+    <section id="goon-log" class="goon-log" aria-live="polite" hidden>
+      <div id="goon-totals" class="goon-totals"></div>
+      <ol id="goon-events" class="goon-events"></ol>
+      <p id="goon-empty" class="empty" hidden></p>
+    </section>
+    <p id="status" class="empty" hidden></p>
+  </main>
+  <div id="widget-picker" class="wall-modal" hidden>
+    <section class="wall-modal-sheet" role="dialog" aria-modal="true" aria-labelledby="widget-picker-title">
+      <header><strong id="widget-picker-title">add a widget</strong><button class="close-modal" type="button">done</button></header>
+      <div id="widget-options" class="widget-options"></div>
+    </section>
+  </div>
+  <div id="goon-picker" class="wall-modal" hidden>
+    <section class="wall-modal-sheet goon-picker-sheet" role="dialog" aria-modal="true" aria-labelledby="goon-picker-title">
+      <header><strong id="goon-picker-title">adjust goon counter</strong><button class="close-modal" type="button">done</button></header>
+      <div id="goon-options"></div>
+    </section>
+  </div>
+  <div id="sonos-search-modal" class="wall-modal" hidden>
+    <section class="wall-modal-sheet sonos-search-sheet" role="dialog" aria-modal="true" aria-labelledby="sonos-search-title">
+      <header><strong id="sonos-search-title">music</strong><button class="close-modal" type="button">done</button></header>
+      <div class="music-source-tabs" role="tablist" aria-label="Music source">
+        <button id="music-source-spotify" class="active" type="button" role="tab" aria-selected="true">spotify</button>
+        <button id="music-source-soundcloud" type="button" role="tab" aria-selected="false">soundcloud</button>
+      </div>
+      <form id="sonos-search-form" class="sonos-search-form">
+        <input id="sonos-search-input" type="search" maxlength="160" autocomplete="off" placeholder="search spotify" aria-label="Search music">
+        <button type="submit">search</button>
+      </form>
+      <div id="sonos-search-results" class="sonos-search-results" aria-live="polite"></div>
+    </section>
+  </div>
+  <div id="settings-modal" class="wall-modal" hidden>
+    <section class="wall-modal-sheet settings-sheet" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <header><strong id="settings-title">settings</strong><button class="close-modal" type="button">done</button></header>
+      <div class="settings-body">
+        <section>
+          <h2>spotify</h2>
+          <a id="spotify-connect" href="/api/spotify/login">connect spotify</a>
+        </section>
+        <section>
+          <h2>soundcloud</h2>
+          <p id="soundcloud-status">not configured</p>
+          <form id="soundcloud-settings-form">
+            <label>client id<input id="soundcloud-client-id" name="client_id" autocomplete="off" spellcheck="false" required></label>
+            <label>client secret<input id="soundcloud-client-secret" name="client_secret" type="password" autocomplete="new-password" placeholder="leave blank to keep saved secret"></label>
+            <label>redirect url<output id="soundcloud-redirect"></output></label>
+            <button type="submit">save soundcloud settings</button>
+          </form>
+          <a id="soundcloud-connect" href="/api/soundcloud/login" hidden>sign in with soundcloud</a>
+        </section>
+      </div>
+    </section>
+  </div>
+  <div id="goon-celebration" class="goon-celebration" aria-hidden="true"></div>
+  <template id="photo-template">
+    <figure><div class="photo-frame"><a><img loading="lazy" alt="Wall fit pic"></a><div class="photo-actions"><button class="hide-photo" type="button">hide</button><button class="delete-photo" type="button">delete</button></div></div><figcaption></figcaption></figure>
+  </template>
+  <script src="/app.js" defer></script>
+</body>
+</html>

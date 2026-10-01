@@ -1,0 +1,12 @@
+; Alternative to systemd. Supply required WALL_* variables in a private
+; Supervisor environment configuration; do not use both process managers.
+[program:wall]
+command=/opt/wall/don-workspace/.venv/bin/python /opt/wall/don-workspace/server.py
+directory=/opt/wall/don-workspace
+user=wall
+autostart=true
+autorestart=true
+stopsignal=TERM
+stopasgroup=true
+stdout_logfile=/var/log/wall/stdout.log
+stderr_logfile=/var/log/wall/stderr.log

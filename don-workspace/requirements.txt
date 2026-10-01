@@ -1,0 +1,2 @@
+# Python 3.10+; Pillow is required for photo validation.
+Pillow==12.3.0

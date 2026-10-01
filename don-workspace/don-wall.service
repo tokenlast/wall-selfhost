@@ -1,0 +1,22 @@
+[Unit]
+Description=Wall app server
+After=network.target
+
+[Service]
+Type=simple
+User=wall
+Group=wall
+WorkingDirectory=/opt/wall/don-workspace
+EnvironmentFile=/etc/wall/config.env
+ExecStart=/opt/wall/don-workspace/.venv/bin/python /opt/wall/don-workspace/server.py
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/wall
+
+[Install]
+WantedBy=multi-user.target

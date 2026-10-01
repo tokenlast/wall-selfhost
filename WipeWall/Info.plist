@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Wall</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>org.example.wall.wipewall.spotify</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wall-spotify-login</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>77</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_sonos._tcp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Detect nearby motion and take the five-second Wall fit pic.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Find and control the Sonos speaker on this Wi-Fi.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Listen for Wall wake phrases and talk with Wall.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Recognize Wall wake phrases and transcribe your request.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>WallLocalPasscode</key>
+	<string></string>
+	<key>WallServerURL</key>
+	<string>https://wall.example.invalid</string>
+	<key>WallSiftServerURL</key>
+	<string>https://sift.example.invalid/cloud/</string>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+name: WipeWall
+options:
+  bundleIdPrefix: org.example.wall
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  WipeWall:
+    type: application
+    platform: iOS
+    sources:
+      - path: WipeWall
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.example.wall.wipewall
+        TARGETED_DEVICE_FAMILY: "2"
+        INFOPLIST_FILE: WipeWall/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    scheme:
+      testTargets:
+        - WipeWallTests
+        - WipeWallUITests
+  WipeWallTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: WipeWallTests
+    dependencies:
+      - target: WipeWall
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.example.wall.wipewall.tests
+        GENERATE_INFOPLIST_FILE: YES
+  WipeWallUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: WipeWallUITests
+    dependencies:
+      - target: WipeWall
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.example.wall.wipewall.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: WipeWall
